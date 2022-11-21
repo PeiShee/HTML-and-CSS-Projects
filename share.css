@@ -36,7 +36,7 @@ h1 {
 
 h1::after { /*This is the underline*/
     display: block;
-    content: **;
+    content: "";
     height: 2px;
     width: 150px;
     background: #E91C1C;
@@ -142,7 +142,7 @@ section {
     display: block;
     height: auto;
     padding-top: 350px; /*This is spacer before the Main title Logo */
-    padding -bottom: 500px; /*This is spacer after the Main title Logo */
+    padding-bottom: 500px; /*This is spacer after the Main title Logo */
     color: #fff;
 }
 
@@ -187,16 +187,16 @@ section {
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
-#contact (
+#contact {
     background-color: #f5f3f3;
-)
+}
 
 .reservation {
     width: 60%;
     padding: 10px;
     border-radius: 8px;
     margin: 0px, auto;
-    background-color: rgba(100, 65,0,rgba(100,65,0,.3)
+    background-color: rgba(100, 65,0,rgba(100,65,0,.3);
     box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
@@ -233,27 +233,27 @@ section {
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8D8E8F
+    color: #8D8E8F;
     padding: 12px 12px;
     width: 70%;
     border: 1px solid #808080;
-    mardin: 2% auto;
+    margin: 2% auto;
     border-radius: 7px;
     background: rgb(227,222,222);
     box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input{type="text"} {
+.reservation input[type="text"] {
     font-size: 15px;
     outline: none;
-    fonr-weight: 600;
+    font-weight: 600;
     color: #8D8E8F;
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090B0D;
     border-right: 2px solid #424549;
-    border-bottom: 2px solid #090b0d
+    border-bottom: 2px solid #090b0d;
     border-left: 1px solid #090B0D;
     margin: 10px 1mm;
     border-radius: 7px;
@@ -262,7 +262,7 @@ section {
     font-family: 'Raleway', snas-serif;
 }
 
-.reservation input{type="text"}:hover {
+.reservation input[type="text"]:hover {
     box-shadow: 0 0 10px rgba(100,65,0,.8);
 }
 
@@ -289,7 +289,7 @@ section {
     text-decoration: underline;
 }
 
-.submit input{type="submit"} {
+.submit input[type="submit"] {
     color: rgb(225,225,225);
     cursor: pointer;
     border: none;
@@ -299,15 +299,15 @@ section {
     font-family: 'Raleway', snas-serif;
     margin: 0px  3%;
     padding: 7px 0px;
-    width: 25%
+    width: 25%;
     font-size: 10px;
-    transition: border-color 0.3x color 0.3x background-xolor: 0.3x;
+    transition: border-color 0.3s color 0.3s background-color: 0.3x;
     border-radius: 7px;
     background-color: #797a7b;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
 }
 
-.submit input{type="submit"}:hover {
+.submit input[type="submit"]:hover {
     color: #000;
     background-color: #8D8E8F;
     box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
